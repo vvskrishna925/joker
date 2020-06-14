@@ -8,7 +8,7 @@ public class Ex27 {
 		
 		for (int i = 0; i < n ; i++) {
 			int temp = 0;
-			for (int j = i ;j > 0 ; j--) {
+			for (int j = i ;j >= 0 ; j--) {
 			 if (a[i] == a[j]) 	 {
 				 temp++;
 			 }
