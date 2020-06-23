@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 class Person1 {
 		Person1 (int no ) {
 		System.out.print(no + " : Hello ");

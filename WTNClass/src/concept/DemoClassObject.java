@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 class Object {
 	protected int i;
 	 void set(int y) {

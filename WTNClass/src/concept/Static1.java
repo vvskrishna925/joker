@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 
 public class Static1 {
 	// static variable

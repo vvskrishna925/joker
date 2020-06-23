@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 // char -> int -> long -> float -> double
 // byte -> short -> int -> long -> float -> double
 public class MethodOverloading {

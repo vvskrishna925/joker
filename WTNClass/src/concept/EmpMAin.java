@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 //super keyword usage
 class Person {
 	int no = 50;

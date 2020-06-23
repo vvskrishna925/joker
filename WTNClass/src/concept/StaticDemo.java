@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 
 public class StaticDemo {
 	private static int a = 0;

@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 
 public class Nestedclass {
  private static String str = "Edureka";

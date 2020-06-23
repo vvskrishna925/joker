@@ -1,4 +1,4 @@
-package inheritance;
+package concept;
 // the order of execution of the constructors in inheritance is from base class to derived class
 class A{
 	A(){
