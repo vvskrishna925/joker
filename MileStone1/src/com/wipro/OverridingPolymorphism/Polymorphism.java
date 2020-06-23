@@ -39,10 +39,10 @@ public class Polymorphism {
 		Shape s = new Square ();
 		c.draw();
 		c.erase();
-		t.draw();
-		t.erase();
 		s.draw();
 		s.erase();
+		t.draw();
+		t.erase();
 	}
 
 }
