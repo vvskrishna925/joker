@@ -20,10 +20,10 @@ public class ExceptionDemo {
 			 System.out.println("The array element succesfully accessed");
 		}
 		catch (NumberFormatException e) {
-			System.out.println(e);
+			System.out.println("java.lang.NumberFormatException");
 		}
 		catch (ArrayIndexOutOfBoundsException e ) {
-			System.out.println(e);
+			System.out.println("java.lang.ArrayIndexOutOfBoundsException");
 		}
 		
 	}
