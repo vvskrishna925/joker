@@ -17,6 +17,7 @@ public class ExceptionDemo {
 			System.out.println("Enter the index of the array element you want to access");
 			 index = Integer.parseInt(s.nextLine());
 			 System.out.println("The array element at the index "+ index +" = "+array[index]);
+			 System.out.println("The array element succesfully accessed");
 		}
 		catch (NumberFormatException e) {
 			System.out.println(e);
