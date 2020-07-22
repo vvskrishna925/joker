@@ -3,7 +3,6 @@ import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
 public class Assignment3 {
-@SuppressWarnings("resource")
 public static void main(String[] args) throws IOException {
 	File fileIn = new File(args[0]);
 	File fileOut = new File(args[1]);
