@@ -1,4 +1,4 @@
-package com.wipro.miniprojects;
+package miniproject1;
 @SuppressWarnings("serial")
 class InvalidEmployeeIdException extends Exception
 {
@@ -7,7 +7,7 @@ class InvalidEmployeeIdException extends Exception
 		super(s);
 	}
 }
-public class Project1 {
+public class Employee {
 	// (Dear Allowance) DesignationTable
 	private String[][] designationTable = new String [][] {
 	//    0       1         2
@@ -86,11 +86,12 @@ public class Project1 {
 	}
 public static void main(String[] args) {
 	try {
-		Project1 proj = new Project1();
-		proj.printEmployeeDetails(Integer.parseInt(args[0]));
+		Employee e = new Employee();
+		e.printEmployeeDetails(Integer.parseInt(args[0]));
 	}
 	catch (Exception e) {
 		System.out.println(e.getMessage());
 	}
 }
 }
+
