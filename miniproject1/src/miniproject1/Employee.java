@@ -1,5 +1,6 @@
 package miniproject1;
 @SuppressWarnings("serial")
+//exception for invalid employeeid
 class InvalidEmployeeIdException extends Exception
 {
 	InvalidEmployeeIdException(String s)
